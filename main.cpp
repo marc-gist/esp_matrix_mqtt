@@ -37,6 +37,7 @@ String out_topic_light = String("iot/" + mqtt_client_name + "/analog");
 #define MQTT_SEND_TIME "iot/sendtime"
 
 #define PIN D3
+// for 32x8 pixel matrix
 Adafruit_NeoMatrix matrix = Adafruit_NeoMatrix(32, 8, PIN,
   NEO_MATRIX_BOTTOM     + NEO_MATRIX_RIGHT +
   NEO_MATRIX_COLUMNS + NEO_MATRIX_ZIGZAG,
